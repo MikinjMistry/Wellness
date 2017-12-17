@@ -4,7 +4,7 @@ class wellness
 	var $con; 
 	function __construct()
 	{
-		$this->con = new mysqli('localhost','root','harami','wellness_consultancy');
+		$this->con = new mysqli('localhost','root','Narola@21','wellness_consultancy');
 		// $this->con = new mysqli('mysql.hostinger.in','u440683875_well','wellness123','u440683875_welll');
 		if(!$this->con)
 		{
